@@ -30,3 +30,48 @@ div {
 }
 
 /*** Your code here ***/
+/* @media (min-width: 500px) {
+    div {
+    display: inline-block;
+    width: 44%;
+    font-size: large;
+    }
+    #div-1,
+    #div-2 {
+        background-color: #9370db;
+    }
+    #div-3,
+    #div-4 {
+        background-color: #6495ed;
+    }
+} */
+
+@media (max-width: 900px) {
+    div {
+    display: inline-block;
+    width: 22%;
+    font-size: small;
+    }
+    #div-1,
+    #div-2, 
+    #div-3, 
+    #div-4 {
+        background-color: #9370db;
+    }
+}
+
+@media (max-width: 500px) {
+    div {
+    display: inline-block;
+    width: 44%;
+    font-size: large;
+    }
+    #div-1,
+    #div-2 {
+        background-color: #9370db;
+    }
+    #div-3,
+    #div-4 {
+        background-color: #6495ed;
+    }
+}
