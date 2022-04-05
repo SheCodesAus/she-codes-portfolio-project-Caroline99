@@ -21,8 +21,10 @@
 
 @media (min-width: 600px) {
     .green-box {
+        height: 200px;
     }
     .blue-box {
+        height: 150px;
     }
     .grey-box {
         width: calc(100% / 2 - 10px);
@@ -32,6 +34,7 @@
 
 @media (min-width: 900px) {
     .green-box {
+        height: 300px;
     }
     .blue-box {
         width: calc(100% / 3 - 10px);
