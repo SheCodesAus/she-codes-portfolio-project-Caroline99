@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;1,100;1,200&family=Ubuntu&display=swap');
+
+* {
+    box-sizing: border-box;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Ubuntu', sans-serif;
+    color:  #777;
+
+}
+
 body {
     background-color: #FDF5E6;
     color: #000000;
@@ -7,22 +17,73 @@ body {
 
 #profile {
     width: 30%;
-    /* align-content: left;  */
-    /* display: inline-block; */
-    /* padding-top: 100%;
-    height: 0; */
-    /* height: 60vh;
-    object-fit: cover;
-    object-position: bottom; */
 }
 
 header {
-    border-bottom: 2px solid #FDDC5C;
+    /* border-bottom: 2px solid #FDDC5C; */
     text-align: center;
+    
 }
+
+.main-header h1, .main-header h2, .main-header h5 {
+    color: #222222;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline;
+    
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    text-decoration: none;
+    
+}
+
+.nav a:hover {
+    background-color: rgba(149, 45, 45, 0.5)
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid #777;
+}
+
+.main-content {
+    padding: 1em;
+}
+
+.main-header {
+    /* Add a background image to the main header */
+    /* background-image: url("Images/");
+    background-size: cover; */
+
+}
+
+/* p {
+    max-width: 900px;
+    margin: 0 auto;
+} */
 
 div {
     padding: 8px;
+}
+
+footer {
+    text-align: center;
+    background-color: #F5F5F5;
+    border-top: 2px solid #F5F5F5;
+    padding-top: 3px;
+    position: sticky;
+    top: 100vh;
 }
 
 form {
@@ -72,14 +133,7 @@ form {
     width: 100px;
 }
 
-footer {
-    text-align: center;
-    background-color: #F5F5F5;
-    border-top: 2px solid #F5F5F5;
-    padding-top: 3px;
-    position: sticky;
-    top: 100vh;
-}
+
 
 /* Small devices (landscape phones, 481px and up) */
 @media (min-width: 481px) { 
